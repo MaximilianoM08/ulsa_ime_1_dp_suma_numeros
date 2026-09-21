@@ -1,26 +1,26 @@
 # Práctica 1: Suma de 5 números
 ## 1. Descripción del problema (Fase 1)
 <!-- Explica con tus palabras qué hace tu programa y para qué serviría en la vida real. Máximo 4 líneas. -->
-
+Lo que hace es hacer una sumatoria de 5 números, en los cuales solo se aceptan valores númericos, este programa serviría para hacer sumas simples como para llevar finanzas o sacar promedios. Todo esto, mientras se mantenga en suma simple, para los promedios se podría implementar la división en el futuro
 _____
 
 ## 2. Entradas y salidas (Fase 1)
 <!-- Define cada entrada y cada salida, con su tipo de dato y su objetivo. -->
 
 **Entradas:**
-1. _____
+1. 5 números decimales
 
 **Salidas:**
-1. _____
+1. 1 número decimal
 
 ## 3. Restricciones e invariante (Fase 1 y 2)
 
 **Restricciones** (¿qué debe cumplirse?):
-- _____
-- _____
+- Recibir valor númerico
+- Aceptar decimales
 
 **Decisión sobre negativos y decimales** (¿los acepto? ¿por qué?):
-_____
+Aceptarlos porque asi lo decidí para que abarque mas números
 
 **Invariante** (¿qué es verdad después de cada vuelta del ciclo?):
 _____
