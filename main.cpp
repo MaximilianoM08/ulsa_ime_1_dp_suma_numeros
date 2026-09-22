@@ -8,14 +8,14 @@ int main() {
     int contador = 0;
 
     // 2. Variables (siempre inicializadas)
-    double suma   = 0.0;
+    double suma = 0.0;
     double numero = 0.0;
 
     std::cout << "Suma de " << CANTIDAD << " numeros\n";
 
     // 3. Ciclo: repetir CANTIDAD veces
     //    TODO: elige un ciclo (for o while) y usa un contador
-    while (contador <= 5) {
+    while (contador < 5) {
         std::cout << "Ingresa numero" << endl;
         std::cin >> numero;
         
@@ -23,10 +23,10 @@ int main() {
             suma+=numero;
             contador++;
         }else{
-            cout << "Número no válido";
+            std::cout << "Número no válido";
         }
 
     }
-    cout << "suma: " << suma;    
+    std::cout << "suma: " << suma;    
     return 0;
 }

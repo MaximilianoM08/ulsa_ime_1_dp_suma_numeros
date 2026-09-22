@@ -48,7 +48,19 @@ g++ -Wall -Wextra -std=c++17 main.cpp -o suma
 
 ## 7. Ejemplo de ejecución (Fase 3)
 <!-- Pega aquí lo que muestra tu programa en pantalla con un caso normal. -->
-
+PS C:\Users\max_m\OneDrive\Documentos\DocumentosDisenoDeProgramasime_1_dp_001\ulsa_ime_1_dp_suma_numeros> ./suma.exe
+Suma de 5 numeros
+Ingresa numero
+1
+Ingresa numero
+2
+Ingresa numero
+3
+Ingresa numero
+4
+Ingresa numero
+5
+suma: 15
 ```
 _____
 ```
@@ -56,7 +68,7 @@ _____
 ## 8. Experimentos (Fase 3)
 
 **Experimento A: ¿qué pasó al no inicializar `suma`?**
-_____
+No pasó nada, el programa funcionó correctamente, el compilador no dijo nada, creo que el valor inicial si es importante para que realice la suma correctamente pero en este caso como no había nada escrito capaz y lo tomo como 0.0 por default
 
 **Experimento B (opcional): ¿qué pasó al usar `int` con 2.5?**
 _____
@@ -65,7 +77,7 @@ _____
 
 | Caso | Números | Esperado | Obtenido | ¿Pasó? |
 |---|---|---|---|---|
-| Del 1 al 5 | 1 a 5 | 15 | _____ | _____ |
+| Del 1 al 5 | 1 a 5 | 15 | 15 | Sí |
 | Todos ceros | 0 ×5 | 0 | _____ | _____ |
 | Con negativos | _____ | _____ | _____ | _____ |
 | Decimales | 0.5 ×5 | 2.5 | _____ | _____ |
