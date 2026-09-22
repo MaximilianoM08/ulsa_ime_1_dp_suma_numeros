@@ -14,6 +14,9 @@ int main() {
 
     // 3. Ciclo: repetir CANTIDAD veces
     //    TODO: elige un ciclo (for o while) y usa un contador
+    while (contador < 5) {
+        
+    }
     //    TODO: pedir el numero, leerlo y acumularlo en suma
 
     // 4. Salida

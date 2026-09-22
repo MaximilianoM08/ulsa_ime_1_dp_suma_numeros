@@ -23,15 +23,15 @@ _____
 Aceptarlos porque asi lo decidí para que abarque mas números
 
 **Invariante** (¿qué es verdad después de cada vuelta del ciclo?):
-_____
+Que el dato es númerico, se realiza una suma y da un resultado
 
 ## 4. Casos resueltos a mano (Fase 1)
 
 | Caso | Números | Suma calculada a mano |
 |---|---|---|
-| 1 | _____ | _____ |
-| 2 | _____ | _____ |
-| 3 | _____ | _____ |
+| 1 | 52, 20, 32.3, 10, 17 | 131.3 |
+| 2 | 8, 12, 30, 2.5, 6.7 | 59.2 |
+| 3 | 10.3, 20.7, 30.2, 40.6, 50.1 | 151.9 |
 
 ## 5. Receta en pseudocódigo (Fase 2)
 <!-- Tu receta va en el archivo RECETA.md. Aquí solo responde las dos preguntas. -->
