@@ -36,8 +36,8 @@ Que el dato es númerico, se realiza una suma y da un resultado
 ## 5. Receta en pseudocódigo (Fase 2)
 <!-- Tu receta va en el archivo RECETA.md. Aquí solo responde las dos preguntas. -->
 
-**¿Probé mi receta a mano con un caso?** Sí / No
-**¿Tuve que corregirla?** _____
+**¿Probé mi receta a mano con un caso?** Sí 
+**¿Tuve que corregirla?** Sí
 
 ## 6. Cómo compilar y ejecutar (Fase 3)
 
