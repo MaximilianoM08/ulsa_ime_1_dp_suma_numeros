@@ -19,7 +19,10 @@ int main() {
         std::cout << "Ingresa numero" << endl;
         std::cin >> numero;
         
-        if (numero >= 0) {
+        if (numero >= 0){
+            suma+=numero;
+            contador++;
+        }else if (numero <= 0){
             suma+=numero;
             contador++;
         }else{

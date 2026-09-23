@@ -78,19 +78,18 @@ _____
 | Caso | Números | Esperado | Obtenido | ¿Pasó? |
 |---|---|---|---|---|
 | Del 1 al 5 | 1 a 5 | 15 | 15 | Sí |
-| Todos ceros | 0 ×5 | 0 | _____ | _____ |
-| Con negativos | _____ | _____ | _____ | _____ |
-| Decimales | 0.5 ×5 | 2.5 | _____ | _____ |
-| Todos iguales | 7 ×5 | 35 | _____ | _____ |
-| Caso propio 1 | _____ | _____ | _____ | _____ |
-| Caso propio 2 | _____ | _____ | _____ | _____ |
+| Todos ceros | 0 ×5 | 0 | 0 | Sí |
+| Con negativos | -1 al -5 | -15 | N/A | No |
+| Decimales | 0.5 ×5 | 2.5 | 2.5 | Sí |
+| Todos iguales | 7 ×5 | 35 | 35 | Sí |
+| Caso propio 1 | 3.5, 4, -2, -1, 6.7 | 11.2 | N/A | No |
+| Caso propio 2 | 0, 20, 20, 20, 7 | 67 | 67 | Sí |
 
 ## 10. Bitácora de mejoras (Fase 4)
 
 | # | ¿Qué falló o qué quise mejorar? | ¿Qué cambié? | ¿Funcionó? |
 |---|---|---|---|
-| 1 | _____ | _____ | _____ |
-| 2 | _____ | _____ | _____ |
+| 1 | No reconocía como válido números negativos | Agregué un else if con condición para números menores o iguales a 0 | Sí |
 
 **Reto elegido (opcional):** _____
 
@@ -98,27 +97,27 @@ _____
 
 | Duda | Lo que ya intenté |
 |---|---|
-| _____ | _____ |
+| De momento nada | _____ |
 
 ## 12. Reflexión final
 
 **¿Qué aprendí con esta práctica?**
-_____
+Que tengo que empezar a diseñar mejor la receta, teniendo en cuenta cualquier posible cosa que no pueda ser entendida al 100%
 
 **Ahora que terminé, ¿qué cambiaría de mi proceso?**
-_____
+La manera en la que llevé a cabo mi diseño de la receta porque me quedé únicamente con la base que nos dió el profe y no intenté agregar más cosas para que fuera más claro
 
 **¿Qué fue lo más difícil y cómo lo resolví?**
-_____
+No me reconocía ningún valor como válido y fui con el profe por ayuda y resultó ser un error que no corría por el isdigit
 
 **¿Qué pregunta me quedó sin responder?**
-_____
+¿Por qué a mi no me funcionó el isdigit y a varios de mis compañeros si?
 
 ## 13. Lista de verificación antes de entregar (Fase 5)
 
-- [ ] Llené todas las secciones (no quedan `_____`)
-- [ ] Mi programa compila sin advertencias
-- [ ] Probé todos los casos de la tabla
-- [ ] Hice al menos 3 commits con mensajes claros
-- [ ] Hice `git push` y verifiqué mi fork en GitHub
-- [ ] Entregué el enlace de mi fork en Classroom
+- [Sí] Llené todas las secciones (no quedan `_____`)
+- [Sí] Mi programa compila sin advertencias
+- [Sí] Probé todos los casos de la tabla
+- [Sí] Hice al menos 3 commits con mensajes claros
+- [Sí] Hice `git push` y verifiqué mi fork en GitHub
+- [Sí] Entregué el enlace de mi fork en Classroom
